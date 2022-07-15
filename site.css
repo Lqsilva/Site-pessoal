@@ -41,3 +41,9 @@ header{
     border-radius: 50%;
     border: 1px solid black;
 }
+.logo {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+}
