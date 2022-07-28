@@ -1,0 +1,71 @@
+body{
+    background-image: url("https://images2.alphacoders.com/722/72270.jpg");
+}
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box ;
+}
+header{
+    padding: 32px;
+    border-bottom:1px black solid;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.header{
+    text-align: center;
+}
+.header a{
+    text-align: center;
+    color: gold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    text-decoration: none;
+}
+.header :hover{
+    color:goldenrod;
+}
+#imagem {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    
+    
+}
+#imagem img:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#imagem img{
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: all 0.2s linear;
+}
+.logo {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.logo img{
+    transition: all 0.1s linear;
+}
+.logo img:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#h2{
+    text-align: center;
+    color: rgb(255, 174, 0);
+    margin-bottom: 15px;
+}
+
+/*------------------------- CSS do projetos--------------------------*/
+#biografia{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 10px;
+}
